@@ -1,0 +1,24 @@
+/* layout/footer
+--------------------------------------*/
+
+.txt-call {
+	display: inline-block;
+	margin-bottom: 0;
+	padding: 15px 0;
+	color: $lightness;
+	font-size: 21px;
+	text-transform: uppercase;
+
+	.ico-circle {
+		margin-right: 10px;
+	}
+}
+
+.copy {
+	margin: 0;
+	padding-top: 3px;
+	font-size: 13px;
+	color: #8adcf0;
+
+	a { color: #8adcf0; }
+}

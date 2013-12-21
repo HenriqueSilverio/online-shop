@@ -1,0 +1,42 @@
+/* modules/select
+--------------------------------------*/
+
+.select {
+	position: relative;
+	display: inline-block;
+
+	select {
+		position: relative;
+		z-index: 5;
+
+		border: none;
+
+		color: $lightness;
+		text-overflow:'';
+		text-indent: 0.01px;
+
+		background: transparent;
+
+		-webkit-appearance: none;
+		   -moz-appearance: none;
+				appearance: none;
+
+		&:focus {
+			outline: none;
+		}
+	}
+
+	select::-ms-expand {
+		display: none;
+	}
+
+	&:before {
+		content: '';
+		display: block;
+		position: absolute;
+		top: 10px; right: 5px;
+		width: image-width( 'arrow-down.png' );
+		height: image-height( 'arrow-down.png' );
+		background: image-url( 'arrow-down.png' ) no-repeat center center;
+	}
+}

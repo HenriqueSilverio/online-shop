@@ -1,0 +1,81 @@
+/* modules/banner
+--------------------------------------*/
+
+.banner-geral {
+	position: relative;
+	margin-bottom: 40px;
+}
+
+.banner {
+	position: relative;
+}
+
+	.banner-figure {
+		width: 100%;
+		height: 475px;
+	}
+
+
+
+.banner-inner {
+	position: absolute;
+	top: 0; left: 0; right: 0;
+}
+
+	.banner-container {
+		position: relative;
+		z-index: 10;
+		height: 475px;
+	}
+		
+		.banner-text {
+			position: absolute;
+			top: 180px; left: 20px;			
+		}
+
+			.banner-title,
+			.banner-subtitle {
+				display: inline-block;
+				margin: 0;
+				padding: 5px 10px;
+				text-transform: uppercase;
+				color: $lightness;
+				background: rgba(0, 0, 0, .5);
+			}
+
+			.banner-title {
+				margin-bottom: 5px;
+				font: 1.875em $font-regular;
+			}
+
+			.banner-subtitle {
+				font: 1.875em $font-bold;		
+			}
+
+.banner-container-controls {
+	position: absolute; 
+	top: 0; left: 0; right: 0; 
+	z-index: 20;
+	height: 475px;
+}
+
+.prev,
+.next {
+	position: absolute;
+	z-index: 100;
+	top: 200px;
+
+	&:hover {
+		cursor: pointer;
+	}
+}
+
+.prev {
+	left: 15%;
+	@include replace-text-with-dimensions('arrow-left.png');
+}
+
+.next {
+	right: 15%;
+	@include replace-text-with-dimensions('arrow-right.png');
+}

@@ -1,0 +1,600 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Online Shop</title>
+	<!-- build:css assets/vendor/owl-carousel/owl.min.css -->
+	<link rel="stylesheet" href="assets/vendor/owl-carousel/owl.carousel.css">
+	<link rel="stylesheet" href="assets/vendor/owl-carousel/owl.theme.css">
+	<!-- /build -->
+	<!-- build:css assets/css/style.min.css -->
+	<link rel="stylesheet" href="assets/css/style.css">
+	<!-- /build -->
+</head>
+<body>
+	<!-- Likebox -->
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1";
+		fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+	<!-- Likebox -->
+
+	<header>
+		<div class="full-bg-one">
+			<div class="container p-block-one">
+				<ul class="ls-inline txt-mini f-left">
+					<li>
+						<label class="txt-calm" for="language">Language:</label>
+						<div class="select">
+							<select class="" name="language" id="language">
+								<option value="#">English</option>
+							</select>
+						</div>
+					</li>
+					<li>
+						<label class="txt-calm" for="currency">Currency:</label>
+						<div class="select">
+							<select class="" name="currency" id="currency">
+								<option value="#">USD</option>
+							</select>
+						</div>
+					</li>
+				</ul>
+				<nav class="f-right">
+					<ul class="menu-inline">
+						<li>
+							<a href="#" title="Account">Account</a>
+						</li>
+						<li>
+							<a href="#" title="Whishlist">Whishlist</a>
+						</li>
+						<li>
+							<a href="#" title="Checkout">Checkout</a>
+						</li>
+						<li>
+							<a href="#" title="Log in">Log in</a>
+						</li>
+						<li>
+							<a href="#" title="Sign Up">Sign Up</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div><!-- /first-block-top -->
+
+		<div class="container">
+			<h1 class="logo f-left">
+				<a href="#">Web Shop</a>
+			</h1>
+
+			<ul class="menu-inline menu-inline__bold f-left">
+				<li>
+					<a href="#" title="Home">Home</a>
+				</li>
+				<li>
+					<a href="#" title="Women">Women</a>
+				</li>
+				<li>
+					<a href="#" title="Men">Men</a>
+				</li>
+				<li>
+					<a href="#" title="Other">Other</a>
+				</li>
+				<li>
+					<a href="#" title="Purchase">Purchase</a>
+				</li>
+			</ul>
+
+			<div class="p-top-x f-right">	
+				<form class="form-search f-left" method="post" action="">
+					<label class="sr-only" for="search">What do you search?</label>
+					<input class="input-search" type="text" name="search" id="search" placeholder="Search...">
+					<button class="btn-search" type="button">
+						<span class="icon-search"></span>
+						<span class="sr-only">Search</span>
+					</button>
+				</form>
+				<ul class="ls-shop">
+					<li>
+						<a class="ico-circle ico-circle-balanced" href="#">
+							<i class="icon-tags"></i>
+							<span class="sr-only">Tags</span>
+						</a>
+					</li>
+					<li>
+						<a class="ico-circle ico-circle-balanced" href="#">
+							<i class="icon-shopping-cart"></i>
+							<span class="sr-only">Shopping cart</span>
+						</a>
+					</li>
+					<li class="shop-resume">
+						<a href="#">Cart (666)</a>
+					</li>
+				</ul>
+			</div>
+		</div> <!-- /second-block-top -->
+	</header>
+
+	<div class="banner-geral">
+		<div id="carousel-main" class="owl-carousel">
+			<div class="banner">
+				<img class="banner-figure" src="assets/img/banner-01.jpg">
+				<div class="banner-inner">
+					<div class="container banner-container">
+						<div class="banner-text">
+							<h5 class="banner-title">Aluminum club</h5> <br>
+							<h6 class="banner-subtitle">Experience Ray-Ban</h6>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="banner">
+				<img class="banner-figure" src="assets/img/banner-02.jpg">
+				<div class="banner-inner">
+					<div class="container banner-container">
+						<div class="banner-text">
+							<h5 class="banner-title">Aluminum club</h5> <br>
+							<h6 class="banner-subtitle">Experience Ray-Ban</h6>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<a class="prev">Previous</a>
+		<a class="next">Next</a>
+	</div> <!-- /block-banner -->
+
+	<div class="container">
+		<div class="content">
+			<h2 class="content-title">Featured Products</h2>
+			<div class="showcase">
+				<div class="col-3">
+					<div class="card card-prod">
+						<figure>
+							<a href="#">
+								<img src="assets/img/product-01.jpg">
+							</a>
+						</figure>
+						<div class="card-footer">
+							<span class="card-prod-title"><a href="#">Lorem Ipsum is simply.</a></span>
+							<span class="card-prod-price">$180.00</span>
+							<a class="ico-basket" href="#">Buy now</a>
+						</div>
+						<div class="ribbon ribbon-right">
+							<span class="ribbon-new">New</span> <!-- class="ribbon ribbon-sale" -->
+						</div>
+					</div>
+				</div>
+
+				<div class="col-3">
+					<div class="card card-prod">
+						<figure>
+							<a href="#">
+								<img src="assets/img/product-02.jpg">
+							</a>
+						</figure>
+						<div class="card-footer">
+							<span class="card-prod-title"><a href="#">Lorem Ipsum is simply.</a></span>
+							<span class="card-prod-price">$278.00</span>
+							<a class="ico-basket" href="#">Buy now</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-3">
+					<div class="card card-prod">
+						<figure>
+							<a href="#">
+								<img src="assets/img/product-02.jpg">
+							</a>
+						</figure>
+						<div class="card-footer">
+							<span class="card-prod-title"><a href="#">Lorem Ipsum is simply.</a></span>
+							<del class="card-price-old">$460</del>
+							<span class="card-prod-price">$278.00</span>
+							<a class="ico-basket" href="#">Buy now</a>
+						</div>
+						<div class="ribbon ribbon-left">
+							<span class="ribbon-sale">Sale</span> <!-- class="ribbon ribbon-sale" -->
+						</div>
+					</div>
+				</div> <!-- /line -->
+
+				<div class="col-3">
+					<div class="card card-prod">
+						<figure>
+							<a href="#">
+								<img src="assets/img/product-02.jpg">
+							</a>
+						</figure>
+						<div class="card-footer">
+							<span class="card-prod-title"><a href="#">Lorem Ipsum is simply.</a></span>
+							<span class="card-prod-price">$278.00</span>
+							<a class="ico-basket" href="#">Buy now</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-3">
+					<div class="card card-prod">
+						<figure>
+							<a href="#">
+								<img src="assets/img/product-01.jpg">
+							</a>
+						</figure>
+						<div class="card-footer">
+							<span class="card-prod-title"><a href="#">Lorem Ipsum is simply.</a></span>
+							<span class="card-prod-price">$180.00</span>
+							<a class="ico-basket" href="#">Buy now</a>
+						</div>
+						<div class="ribbon ribbon-right">
+							<span class="ribbon-new">New</span> <!-- class="ribbon ribbon-sale" -->
+						</div>
+					</div>
+				</div>
+
+				<div class="col-3">
+					<div class="card card-prod">
+						<figure>
+							<a href="#">
+								<img src="assets/img/product-02.jpg">
+							</a>
+						</figure>
+						<div class="card-footer">
+							<span class="card-prod-title"><a href="#">Lorem Ipsum is simply.</a></span>
+							<span class="card-prod-price">$278.00</span>
+							<a class="ico-basket" href="#">Buy now</a>
+						</div>
+					</div>
+				</div> <!-- /line -->
+
+				<div class="col-3">
+					<div class="card card-prod">
+						<figure>
+							<a href="#">
+								<img src="assets/img/product-01.jpg">
+							</a>
+						</figure>
+						<div class="card-footer">
+							<span class="card-prod-title"><a href="#">Lorem Ipsum is simply.</a></span>
+							<span class="card-prod-price">$180.00</span>
+							<a class="ico-basket" href="#">Buy now</a>
+						</div>
+						<div class="ribbon ribbon-right">
+							<span class="ribbon-new">New</span> <!-- class="ribbon ribbon-sale" -->
+						</div>
+					</div>
+				</div>
+
+				<div class="col-3">
+					<div class="card card-prod">
+						<figure>
+							<a href="#">
+								<img src="assets/img/product-02.jpg">
+							</a>
+						</figure>
+						<div class="card-footer">
+							<span class="card-prod-title"><a href="#">Lorem Ipsum is simply.</a></span>
+							<del class="card-price-old">$460</del>
+							<span class="card-prod-price">$278.00</span>
+							<a class="ico-basket" href="#">Buy now</a>
+						</div>
+						<div class="ribbon ribbon-left">
+							<span class="ribbon-sale">Sale</span> <!-- class="ribbon ribbon-sale" -->
+						</div>
+					</div>
+				</div>
+
+				<div class="col-3">
+					<div class="card card-prod">
+						<figure>
+							<a href="#">
+								<img src="assets/img/product-01.jpg">
+							</a>
+						</figure>
+						<div class="card-footer">
+							<span class="card-prod-title"><a href="#">Lorem Ipsum is simply.</a></span>
+							<span class="card-prod-price">$180.00</span>
+							<a class="ico-basket" href="#">Buy now</a>
+						</div>
+						<div class="ribbon ribbon-right">
+							<span class="ribbon-new">New</span> <!-- class="ribbon ribbon-sale" -->
+						</div>
+					</div>
+				</div> <!-- /line -->	
+
+				<h2 class="content-title section-title">Staff pick</h2>
+
+				<div class="col-3">
+					<div class="card card-prod">
+						<figure>
+							<a href="#">
+								<img src="assets/img/product-01.jpg">
+							</a>
+						</figure>
+						<div class="card-footer">
+							<span class="card-prod-title"><a href="#">Lorem Ipsum is simply.</a></span>
+							<span class="card-prod-price">$180.00</span>
+							<a class="ico-basket" href="#">Buy now</a>
+						</div>
+						<div class="ribbon ribbon-right">
+							<span class="ribbon-new">New</span> <!-- class="ribbon ribbon-sale" -->
+						</div>
+					</div>
+				</div>
+
+				<div class="col-3">
+					<div class="card card-prod">
+						<figure>
+							<a href="#">
+								<img src="assets/img/product-02.jpg">
+							</a>
+						</figure>
+						<div class="card-footer">
+							<span class="card-prod-title"><a href="#">Lorem Ipsum is simply.</a></span>
+							<del class="card-price-old">$460</del>
+							<span class="card-prod-price">$278.00</span>
+							<a class="ico-basket" href="#">Buy now</a>
+						</div>
+						<div class="ribbon ribbon-right">
+							<span class="ribbon-new">New</span> <!-- class="ribbon ribbon-sale" -->
+						</div>
+					</div>
+				</div>
+
+				<div class="col-3">
+					<div class="card card-prod">
+						<figure>
+							<a href="#">
+								<img src="assets/img/product-01.jpg">
+							</a>
+						</figure>
+						<div class="card-footer">
+							<span class="card-prod-title"><a href="#">Lorem Ipsum is simply.</a></span>
+							<span class="card-prod-price">$180.00</span>
+							<a class="ico-basket" href="#">Buy now</a>
+						</div>
+					</div>
+				</div> <!-- /line -->
+
+
+				<h2 class="content-title section-title">New Products</h2>
+
+				<div class="col-3">
+					<div class="card card-prod">
+						<figure>
+							<a href="#">
+								<img src="assets/img/product-01.jpg">
+							</a>
+						</figure>
+						<div class="card-footer">
+							<span class="card-prod-title"><a href="#">Lorem Ipsum is simply.</a></span>
+							<span class="card-prod-price">$180.00</span>
+							<a class="ico-basket" href="#">Buy now</a>
+						</div>
+						<div class="ribbon ribbon-right">
+							<span class="ribbon-new">New</span> <!-- class="ribbon ribbon-sale" -->
+						</div>
+					</div>
+				</div>
+
+				<div class="col-3">
+					<div class="card card-prod">
+						<figure>
+							<a href="#">
+								<img src="assets/img/product-02.jpg">
+							</a>
+						</figure>
+						<div class="card-footer">
+							<span class="card-prod-title"><a href="#">Lorem Ipsum is simply.</a></span>
+							<del class="card-price-old">$460</del>
+							<span class="card-prod-price">$278.00</span>
+							<a class="ico-basket" href="#">Buy now</a>
+						</div>
+						<div class="ribbon ribbon-right">
+							<span class="ribbon-new">New</span> <!-- class="ribbon ribbon-sale" -->
+						</div>
+					</div>
+				</div>
+
+				<div class="col-3">
+					<div class="card card-prod">
+						<figure>
+							<a href="#">
+								<img src="assets/img/product-01.jpg">
+							</a>
+						</figure>
+						<div class="card-footer">
+							<span class="card-prod-title"><a href="#">Lorem Ipsum is simply.</a></span>
+							<span class="card-prod-price">$180.00</span>
+							<a class="ico-basket" href="#">Buy now</a>
+						</div>
+						<div class="ribbon ribbon-right">
+							<span class="ribbon-new">New</span> <!-- class="ribbon ribbon-sale" -->
+						</div>
+					</div>
+				</div> <!-- /line -->	
+			</div>
+		</div> <!-- /block-content -->	
+
+		<aside class="sidebar">
+			<div class="card card-decored">
+				<div id="carousel-featured" class="owl-carousel">
+					<figure class="featured">
+						<a href="#">
+							<img src="assets/img/featured-01.jpg" alt="">
+						</a>
+						<figcaption class="featured-cap">
+							<a href="http://www.google.com" class="btn">Check it Out</a>
+						</figcaption>
+					</figure>
+
+					<figure class="featured">
+						<a href="#">
+							<img src="assets/img/featured-02.jpg" alt="">
+						</a>
+						<figcaption class="featured-cap">
+							<a href="http://www.google.com" class="btn">Check it Out</a>
+						</figcaption>
+					</figure>
+
+					<figure class="featured">
+						<a href="#">
+							<img src="assets/img/featured-03.jpg" alt="">
+						</a>
+						<figcaption class="featured-cap">
+							<a href="http://www.google.com" class="btn">Check it Out</a>
+						</figcaption>
+					</figure>
+				</div>
+			</div>
+
+			<div class="card card-decored card-sign">
+				<h4 class="card-sign-title">Newsletters <br> Signup</h4>
+				<p class="card-sign-txt">Lorem ipsum dolor sit amen, dolor imun ra adlip</p>
+				<input class="input-txt" type="text" placeholder="Type your email">
+				<button class="btn btn-balanced">Subscribe</button>
+			</div>
+		</aside> <!-- /block-sidebar -->	
+	</div> <!-- /block-main -->	
+
+	<div class="full-bg-two">
+		<div class="container">
+			<div class="col-2">
+				<p class="txt-call">
+					<span class="ico-circle">
+						<i class="icon-truck"></i>
+					</span>
+					Free shipping on orders over $100
+				</p>
+			</div>
+
+			<div class="col-2">
+				<p class="txt-call">
+					<span class="ico-circle m-left">
+						<i class="icon-phone"></i>
+					</span>
+					Call us! Toll free - 409-8888-0099
+				</p>
+			</div>
+		</div>
+	</div> <!-- /first-block-footer -->
+
+	<div class="full-bg-three">
+		<div class="container">
+			<div class="col-4">
+				<h3 class="footer-title">Facebook</h3>
+				<div class="fb-like-box" data-href="http://www.facebook.com/FacebookDevelopers" data-width="235" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="false" data-show-border="false"></div>
+			</div>
+
+			<div class="col-4">
+				<h3 class="footer-title">From Twitter</h3>
+				<ul class="ls-tweets">
+					<li>
+						<a class="ico-circle ls-tweets-icon" href="#">
+							<i class="icon-twitter"></i>
+							<span class="sr-only">Twitter</span>
+						</a>
+						<span class="ls-tweets-txt">
+							Lorem Ipsum is simply dummy text of the printing and <a href="#">typesetting industry</a>. <a href="#">Lorem Ipsum</a> has been the...
+						</span>
+					</li>
+					<li>
+						<a class="ico-circle ls-tweets-icon" href="#">
+							<i class="icon-twitter"></i>
+							<span class="sr-only">Twitter</span>
+						</a>
+						<span class="ls-tweets-txt">
+							Lorem Ipsum is simply dummy text of the printing and <a href="#">typesetting industry</a>. <a href="#">Lorem Ipsum</a> has been the...
+						</span>
+					</li>
+				</ul>
+			</div>
+
+			<div class="col-4 p-left-x">
+				<h3 class="footer-title">Information</h3>
+
+				<ul class="ls-decored">
+					<li><a href="#">Sed ultrices purus non.</a></li>
+					<li><a href="#">sodales sodales.</a></li>
+					<li><a href="#">Curabitur pretium dui vitae.</a></li>
+					<li><a href="#">Donec gravida mi in nisl </a></li>
+					<li><a href="#">faucibus leo condimentum.</a></li>
+					<li><a href="#">Donec et lorem suscipit.</a></li>
+				</ul>
+			</div>
+
+			<div class="col-4">
+				<h3 class="footer-title">Contact Us</h3>
+
+				<address class="card-address">
+					Web Store <br>
+					Leopards media <br>
+					KVM Rpad, 4590GH <br>
+					+1 489-8888-0099 <br>
+					mail@email.com
+				</address>
+
+				<ul class="social-list">
+					<li>
+						<a class="ico-circle" href="#">
+							<i class="icon-google-plus"></i>
+							<span class="sr-only">Twitter</span>
+						</a>
+					</li>
+					<li>
+						<a class="ico-circle" href="#">
+							<i class="icon-linkedin"></i>
+							<span class="sr-only">Twitter</span>
+						</a>
+					</li>
+					<li>
+						<a class="ico-circle" href="#">
+							<i class="icon-rss"></i>
+							<span class="sr-only">Twitter</span>
+						</a>
+					</li>
+					<li>
+						<a class="ico-circle" href="#">
+							<i class="icon-facebook"></i>
+							<span class="sr-only">Twitter</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>	
+	</div> <!-- /second-block-footer -->
+
+	<footer class="full-bg-four">
+		<div class="container">
+			<p class="copy f-left">
+				© Copyright 2013 - HTML, CSS, JS by <a target="_blank" href="#">@RikeSilverio</a> | PSD by  
+				<a target="_blank" href="http://www.cssauthor.com/free-online-shop-website-template/">
+					CSS Author
+				</a>
+			</p>
+
+			<ul class="menu-inline menu-inline__positive f-right">
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Delivery &amp; Returns</a></li>
+				<li><a href="#">Terms &amp; Conditions</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+		</div>
+	</footer> <!-- /third-block-footer -->
+
+
+	<script src="assets/js/libs/jquery.min.js"></script>
+	<script src="assets/vendor/owl-carousel/owl.carousel.min.js"></script>
+	<!-- build:js assets/js/application.min.js -->	
+	<script src="assets/js/application.js"></script>
+	<!-- /build -->
+</body>
+</html>

@@ -1,0 +1,102 @@
+/* modules/icons
+--------------------------------------*/
+
+@include font-face(
+	'icons', 
+	font-files(
+		'icons/icons.woff',
+		'icons/icons.ttf', 
+		'icons/icons.svg'
+	), 
+	'icons/icons.eot', 
+	'normal', 
+	'normal'
+);
+
+.ico-circle {
+	position: relative;
+	display: inline-block;
+	width: 2.111em; // 37px
+	height: 2.111em; // 37px
+	font-size: 1.125em; // 18px
+	color: #39a0b9;
+	text-align: center;
+	border-radius: 50%;
+	background: $lightness;
+
+	&:hover {
+		text-decoration: none;
+	}
+
+	[class^="icon-"], [class*=" icon-"] {
+		line-height: 2.111em; // 37px 
+	}
+}
+
+.ico-circle-balanced {
+	color: $lightness;
+	background: $balanced;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-tags:before {
+	content: "\e600";
+}
+.icon-shopping-cart:before {
+	content: "\e601";
+}
+.icon-angle-up:before {
+	content: "\e602";
+}
+.icon-angle-right:before {
+	content: "\e603";
+}
+.icon-angle-left:before {
+	content: "\e604";
+}
+.icon-angle-down:before {
+	content: "\e605";
+}
+.icon-twitter:before {
+	content: "\e606";
+}
+.icon-facebook:before {
+	content: "\e607";
+}
+.icon-linkedin:before {
+	content: "\e608";
+}
+.icon-rss:before {
+	content: "\e609";
+}
+.icon-phone:before {
+	content: "\e60a";
+}
+.icon-truck:before {
+	content: "\e60b";
+}
+.icon-search:before {
+	content: "\e60c";
+}
+.icon-google-plus:before {
+	content: "\e60d";
+}
+.icon-basket:before {
+	content: "\e60e";
+}
+.icon-shopping-basket:before {
+	content: "\e60f";
+}

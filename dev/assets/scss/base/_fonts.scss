@@ -1,0 +1,26 @@
+/* base/fonts
+--------------------------------------*/
+
+@include font-face(
+	'Open Sans', 
+	font-files(
+		'open-sans-regular/open-sans-regular.woff',
+		'open-sans-regular/open-sans-regular.ttf', 
+		'open-sans-regular/open-sans-regular.svg'
+	), 
+	'open-sans-regular/open-sans-regular.eot', 
+	'normal', 
+	'normal'
+);
+
+@include font-face(
+	'Open Sans Bold', 
+	font-files(
+		'open-sans-bold/opensans-bold.woff',
+		'open-sans-bold/opensans-bold.ttf', 
+		'open-sans-bold/opensans-bold.svg'
+	), 
+	'open-sans-bold/opensans-bold.eot', 
+	'normal', 
+	'normal'
+);

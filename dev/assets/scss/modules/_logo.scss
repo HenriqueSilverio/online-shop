@@ -1,0 +1,19 @@
+/* modules/logo
+--------------------------------------*/
+
+.logo {
+	display: inline-block;
+	margin: 40px 0;
+
+	a {
+		font-family: $font-bold;
+		font-weight: bold;
+		color: $logo-color;
+		text-transform: uppercase;
+
+		&:hover {
+			text-decoration: none;
+			color: lighten( $logo-color, 20% );
+		}
+	}
+}

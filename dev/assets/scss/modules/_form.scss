@@ -1,0 +1,33 @@
+/* modules/form
+--------------------------------------*/
+
+.form-search {
+	padding: 5px 10px;
+	border: 1px solid #c6c6c6;
+}
+
+.input-search,
+.input-txt {
+	font-size: .875em;
+	color: #b7b7b7;
+
+	&:focus {
+		outline: none;
+	}
+}
+
+.input-txt {
+	padding: 5px;
+}
+
+.input-search {
+	border: none;
+}
+
+.btn-search {
+	margin: 0;
+	padding: 0;		
+	border: none;
+	color: $logo-color;
+	background: transparent;
+}

@@ -1,0 +1,127 @@
+// base/type
+// -------------------------------
+
+p {
+	margin: 0 0 1em;
+}
+
+#{headings()} {
+	font-weight: normal;
+}
+
+h1, .h1 {
+	@include adjust-font-size-to(36px);
+	margin: rhythm(1, 36px) 0;
+}
+
+h2, .h2 {
+	@include adjust-font-size-to(30px); 
+	margin: rhythm(1, 30px) 0;
+}
+
+h3, .h3 {
+	@include adjust-font-size-to(24px); 
+	margin: rhythm(1, 24px) 0;
+}
+
+h4, .h4 {
+	@include adjust-font-size-to(18px); 
+	margin: rhythm(1, 18px) 0;
+}
+
+h5, .h5 {
+	@include adjust-font-size-to(14px); 
+	margin: rhythm(1, 14px) 0;
+}
+
+h6, .h6 {
+	@include adjust-font-size-to(12px); 
+	margin: rhythm(1, 12px) 0;
+}
+
+.content-title {
+	margin: 0 0 30px;
+	padding: 0;
+	font-size: 24px;
+	line-height: normal;
+	text-transform: uppercase;
+}
+
+.section-title {
+	margin: 30px 0; 
+}
+
+.footer-title {
+	margin: 30px 0;
+	font-size: 1.250em;
+	text-transform: uppercase;
+	color: $lightness;
+}
+
+/* Lists
+--------------------------------------*/
+
+.ls-inline {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+	> li {
+		float: left;
+		display: inline-block;
+	}
+
+	li + li {
+		padding-left: 20px;
+	}
+} 
+
+.ls-decored {
+	margin: 0;
+	padding: 0 0 0 17px;
+
+	li {
+		list-style-image: image-url('arrow-list.png');
+	}
+
+	li + li {
+		margin-top: 5px;
+	}
+	
+	a {
+		font-size: .875em;
+		color: $lightness;
+	}
+}
+
+.ls-tweets {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+	li {
+		@include pie-clearfix;
+	}
+
+	li + li {
+		margin-top: 20px;
+	}
+}
+
+.ls-tweets-icon {
+	display: block;
+	float: left;
+}
+
+.ls-tweets-txt {
+	float: left;
+	display: block;
+	width: 195px;
+	padding-left: 15px;
+	font-size: 13px;
+	color: $lightness;
+
+	a {
+		color: $link-color;
+	}
+}

@@ -1,0 +1,69 @@
+// base/scaffolding
+//--------------------------------
+
+*,
+*:before,
+*:after {
+	@include box-sizing(border-box);
+}
+
+::selection { 
+	background: $positive; 
+	color: $lightness; 
+} 
+
+::-moz-selection { 
+	background: $positive; 
+	color: $lightness; 
+}
+
+a {
+	color: $positive;
+	text-decoration: none;
+
+	-webkit-transition: all .15s linear;
+	   -moz-transition: all .15s linear;
+	   	 -o-transition: all .15s linear;
+		    transition: all .15s linear;
+	
+	-webkit-user-drag: none;
+	-webkit-tap-highlight-color: transparent;
+
+	&:hover { text-decoration: underline; }
+}
+
+a, 
+button {
+	&:focus {
+		outline: 0;
+	}
+}
+
+img {
+	-webkit-user-drag: none;
+}
+
+img,
+embed,
+object,
+video {
+  max-width: 100%;
+}
+
+body {	
+	font: normal 100%/1.5 $font-regular;
+	color: $base-color;
+	
+	text-rendering: optimizeLegibility;
+
+	-webkit-text-size-adjust: none;
+			text-size-adjust: none;
+	
+	background-color: $lightness;
+}
+
+body,
+input,
+button {
+	-webkit-font-smoothing: antialiased;
+}

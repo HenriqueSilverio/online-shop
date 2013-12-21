@@ -1,0 +1,85 @@
+// base/helpers
+//------------------------------
+
+// Non-semantics and Placeholders
+//--------------------------------------------
+
+.no-gutter {
+	margin: 0;
+	padding: 0;
+}
+
+.p-top     { padding-top: 20px;    }
+.p-top-x   { padding-top: 47px;    }
+.p-bot     { padding-bottom: 20px; }
+.p-top-bot { padding: 20px 0;      }
+.p-left-x  { padding-left: 25px;   }
+
+.m-top     { margin-top: 20px;    }
+.m-bot     { margin-bottom: 20px; }
+.m-bot-x   { margin-bottom: 30px; }
+.m-top-bot { margin: 20px 0;      }
+.m-left    { margin-left: 20px;   }
+
+.txt-center { text-align: center; }
+
+.f-left {
+	float: left;
+}
+
+.f-right {
+	float: right;
+}
+
+.clear {
+  @include pie-clearfix;
+}
+
+
+/* Full Backgrounds ~ Off container
+--------------------------------------*/
+
+.full-bg-one { 
+  background: $positive;
+}
+
+.full-bg-two {
+  background: #4cb1ca;
+}
+
+.full-bg-three {
+  padding-bottom: 30px;
+  background: #39a0b9;
+}
+
+.full-bg-four {
+  padding: 20px 0;
+  background: #0b4b5a;
+}
+
+
+/* Text sizes and colors
+--------------------------------------*/
+
+.txt-mini {
+    font-size: .875em;
+}
+
+.txt-calm {
+    color: $calm;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.fss a {
+  color: $lightness !important;
+}

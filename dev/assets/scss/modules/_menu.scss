@@ -1,0 +1,72 @@
+/* modules/menu
+--------------------------------------*/
+
+.menu-inline {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+	> li {
+		display: inline-block;
+		float: left;
+
+		&:after {
+			content: '|';
+			color: $lightness;
+		}
+
+		&:last-child:after {
+			content: '';
+		}
+	}
+
+	a {
+		display: inline-block;
+		padding: 0 15px;
+		font-size: .875em;
+		color: $lightness;
+	}
+}
+
+
+.menu-inline__bold {
+	margin-left: 30px;
+	padding-top: 53px;
+
+	li:after {
+		content: '';
+	}
+
+	a {
+		padding: 0 10px;
+		font-family: $font-bold;
+		color: $logo-color;
+		text-transform: uppercase;
+
+		-webkit-transition: all .15s linear;
+		   -moz-transition: all .15s linear;
+		   	 -o-transition: all .15s linear;
+			    transition: all .15s linear;
+
+		&:hover {
+			text-decoration: none;
+			color: lighten( $logo-color, 20% );
+		}
+	}
+}
+
+
+.menu-inline__positive {
+	li:after {
+		color: #8adcf0;
+	}
+
+	li:last-child {
+		padding-right: 0;
+	}
+
+	a {
+		font-size: 13px;
+		color: #8adcf0;
+	}
+}

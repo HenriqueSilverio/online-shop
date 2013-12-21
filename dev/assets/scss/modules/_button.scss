@@ -1,0 +1,34 @@
+/* moudles/button
+--------------------------------------*/
+
+.btn {
+	display: inline-block;
+	margin-bottom: 20px;
+	padding: 10px 25px;
+	font-size: .875em;
+	color: $lightness;
+	border: none;
+	background-color: $positive;
+
+	&:hover {
+		cursor:pointer;
+		text-decoration: none;
+		background-color: darken($positive, 5%);
+	}
+
+	&:active {
+		background-color: darken($positive, 10%);
+	}
+}
+
+.btn-balanced {
+	background-color: $balanced;
+
+	&:hover {
+		background-color: darken($balanced, 5%);
+	}
+
+	&:active {
+		background-color: darken($balanced, 10%);		
+	}
+}

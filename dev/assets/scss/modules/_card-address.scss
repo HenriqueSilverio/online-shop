@@ -1,0 +1,15 @@
+/* modules/card-address
+--------------------------------------*/
+
+.card-address {
+	margin-bottom: 20px;
+	padding-bottom: 15px;
+	color: $lightness;
+	font-size: .875em;
+	font-style: normal;
+	border-bottom: 1px solid #4cb1ca;
+
+	br {
+		margin-bottom: 5px;
+	}
+}
