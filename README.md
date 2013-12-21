@@ -70,6 +70,7 @@ $ grunt deploy
 * [Normalize CSS](http://necolas.github.io/normalize.css/)
 * [jQuery](http://jquery.com/)
 * [OWL Carousel](http://owlgraphic.com/owlcarousel/)
+* [Bower](http://bower.io/)
 
 
 ## TODO
